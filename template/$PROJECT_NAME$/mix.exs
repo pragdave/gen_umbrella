@@ -1,4 +1,4 @@
-defmodule <%= project_name_camel_case %>.Mixfile do
+defmodule <%= @project_name_camel_case %>.Mixfile do
   use Mix.Project
 
   @deps [
