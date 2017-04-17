@@ -2,7 +2,7 @@ defmodule Umbrella.Mixfile do
   use Mix.Project
 
   @name    :gen_template_umbrella
-  @version "0.1.6"
+  @version "0.1.7"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
@@ -10,7 +10,7 @@ defmodule Umbrella.Mixfile do
   ]
 
   @maintainers ["Dave Thomas <dave@pragdave.me>"]
-  @github      "https://github.com/pragdave/gen_template_umbrella"
+  @github      "https://github.com/pragdave/#{@name}"
 
   @description """
   Generate a basic umbrella project.
