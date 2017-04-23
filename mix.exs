@@ -2,7 +2,7 @@ defmodule Umbrella.Mixfile do
   use Mix.Project
 
   @name    :gen_template_umbrella
-  @version "0.1.7"
+  @version "0.1.10"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
@@ -15,9 +15,9 @@ defmodule Umbrella.Mixfile do
   @description """
   Generate a basic umbrella project.
   """
-  
+
   # ------------------------------------------------------------
-  
+
   def project do
     in_production = Mix.env == :prod
     [
@@ -44,5 +44,5 @@ defmodule Umbrella.Mixfile do
 #      extra:       %{ "type" => "a_template_for_mix_gen" },
     ]
   end
-  
+
 end
